@@ -1,4 +1,4 @@
-html{
+body{
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
@@ -10,10 +10,15 @@ header{
   display: flex;
   position: fixed;
   z-index: 1;
+  background-color: black;
   width: 100%;
   height: 69px;
   align-items: center;
   border-bottom: 1px solid seashell;
+}
+
+a{
+  color: seashell;
 }
 
 .logo{
@@ -28,6 +33,7 @@ nav{
   display: flex;
   width: 100%;
   justify-content: flex-end;
+  padding-right: 10px;
 }
 
 span{
@@ -40,10 +46,31 @@ span{
   background-repeat: no-repeat;
   height: 700px;
   padding-top: 70px;
-  justify-content: center;
+
 }
 
 .missionDescription{
   background-color: black;
-  z-index: 2;
+  z-index: 1;
+  margin-top: 350px;
+}
+
+.monthTea{
+  width: 1000px;
+  margin: auto;
+}
+
+.selections{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.selections img{
+  height: 200px;
+  width: 300px;
+}
+
+.teas{
+  padding-bottom: 50px;
 }
