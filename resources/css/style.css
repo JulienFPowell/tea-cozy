@@ -48,10 +48,15 @@ span{
   height: 700px;
 }
 
-.missionDescription{
+
+
+.mission h4{
+  display: inline-block;
+  margin-top: 360px;
   background-color: black;
-  z-index: 1;
+  width: 100%;
 }
+
 
 .monthTea{
   width: 1000px;
@@ -61,14 +66,15 @@ span{
 .selections{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+
 }
 
 .selections img{
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 .teas{
-  padding-bottom: 50px;
 }
