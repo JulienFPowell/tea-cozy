@@ -49,8 +49,6 @@ span{
   height: 700px;
 }
 
-
-
 .missionDescription{
   display: inline-block;
   margin-top: 310px;
@@ -58,17 +56,16 @@ span{
   width: 100%;
 }
 
-
 .monthTea{
   width: 1000px;
   margin: auto;
+  padding-top: 70px;
 }
 
 .selections{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .selections img{
@@ -77,5 +74,41 @@ span{
   margin: 10px;
 }
 
-.teas{
+.selections h4{
+  margin-top: 0px;
+}
+
+.locations{
+  height: 500px;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
+}
+
+.locations h2{
+  margin-bottom: 15px;
+}
+
+.loc{
+  opacity: 1;
+  margin: 20px;
+  width: 300px;
+  background-color: black;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+.contact{
+  height: 200px;
+}
+
+.footer{
+  text-align: left;
+  margin-left: 20px;
 }
