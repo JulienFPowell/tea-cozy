@@ -42,6 +42,7 @@ span{
 }
 
 .mission{
+  margin-top: 70px;
   background-image:url('../images/mission-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -50,9 +51,9 @@ span{
 
 
 
-.mission h4{
+.missionDescription{
   display: inline-block;
-  margin-top: 360px;
+  margin-top: 310px;
   background-color: black;
   width: 100%;
 }
